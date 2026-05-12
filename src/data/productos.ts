@@ -426,7 +426,7 @@ export const reviews: Review[] = [
   descripcion: 'Audífonos inalámbricos con sonido estéreo de alta fidelidad, almohadillas de memory foam y hasta 40 horas de batería. Plegables y ligeros, ideales para viajes y uso diario. Incluye cable auxiliar 3.5mm para modo cableado.',
   precio: 120000,
   precioAnterior: 159000,
-  imagen: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600',
+  imagen: 'ps://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=60htt0',
   imagenes: [
     'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600',
     'https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=600',
