@@ -420,6 +420,34 @@ export const reviews: Review[] = [
     fecha: '2026-03-08',
     util: 12,
   },
+  {
+  id: 'au-099',
+  nombre: 'Audífonos Lenovo Bluetooth Over-Ear Pro',
+  descripcion: 'Audífonos inalámbricos con sonido estéreo de alta fidelidad, almohadillas de memory foam y hasta 40 horas de batería. Plegables y ligeros, ideales para viajes y uso diario. Incluye cable auxiliar 3.5mm para modo cableado.',
+  precio: 120000,
+  precioAnterior: 159000,
+  imagen: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600',
+  imagenes: [
+    'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600',
+    'https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=600',
+  ],
+  categoria: 'audifonos',
+  subcategoria: 'Inalámbricos',
+  marca: 'SoundMax',
+  stock: 15,
+  rating: 4.7,
+  reviews: 85,
+  etiquetas: ['Destacado', 'Oferta'],
+  especificaciones: {
+    'Tipo': 'Over-ear Inalámbricos',
+    'Batería': '40 horas',
+    'Conectividad': 'Bluetooth 5.0',
+    'Driver': '40mm',
+    'Peso': '220g',
+  },
+  destacado: true,
+  oferta: true,
+},
 ];
 
 export const getProductosDestacados = () => productos.filter((p) => p.destacado);
